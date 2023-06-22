@@ -8,3 +8,5 @@ Today we will learn all there is to know about the basics of Javascript, includi
 2)Conditions and Loops
 
 3)Functions
+
+4)DOM Document Objects Model

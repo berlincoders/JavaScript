@@ -31,8 +31,76 @@ const firstname= "john";
 // lets concantenate two strings
 
 const firstString="Hello";
-const secondString=" world";
+const secondString="world";
 
-const bouthStrigns= firstString +secondString;
+const bouthStrigns= firstString +" " + secondString;
 console.log(bouthStrigns);
+// Conditions 
+//if , else" if, else
+const nombre = "Benjamin";
+if (nombre.startsWith("B") )
+       {
+         console.log(true);
+        }
+else   {
+         console.log(false);
+}        
+//loop and iterations
+//for loop
+//for (i=1 ; i<=10 ; i++ )
+//               { 
+//                 console.log(i);
+//               };
+//
+//  Iterations Over an Array
+const names=["Benjamin","Arthur","Lucien","Alex"];
+
+names.forEach((teacher)=>{
+    if (teacher.startsWith("B") )
+    {
+      console.log(true);
+     }
+else   {
+      console.log(false);
+}    
+})
+// Functions
+//Arrow Functions
+// lets write a function to capitalized a name
+//Adding Tabnine Extension at this position, to reconiconize the javascript syntax
+ const capitalized = (name1)=>{
+    const firstLetter= name1[0].toUpperCase();
+    const restOfwords= name1.substring(1).toLowerCase();  
+    const fullName= firstLetter + restOfwords;
+    return fullName;
+
+ }
+ console.log(capitalized("bEnJAmIn"));
+ 
+ 
+ //DOM 
+ //Select and element from the DOM
+ // document.querySelector("CSS_Selector");
+ // Html tag => p
+ // class => .red
+ // id => #myId
+ 
+// go to https://perdu.com/
+//select the h1, and save it to a variable
+// now that you selected the h1, you can call the header function
+// and it will display the header
+const header = document.querySelector("h1");
+
+//change an element
+//element.classlist.add("red"); if you want to add a class to an element
+//element.classlist.remove("red"); if you want to remove a class from an element
+//element.classlist.toggle("red"); if you want to toggle a class from an element
+//element.innertext = "new text"; if you want to change the text of an element
+//or with innerHTML you can add some html code to the text element
+//element.style.display = "block"; if you want to change the display of an element
+
+//Exercise
+// now that you selected the h1, you can modify the text of the h1
+header.innerHTML = "<em>lost on the internet</em>";
+
 
