@@ -9,4 +9,4 @@ Today we will learn all there is to know about the basics of Javascript, includi
 
 3)Functions
 
-4)DOM Document Objects Model
+4) DOM  Document Objects Model
