@@ -6,32 +6,9 @@
     height: 100vh;
     background-color: aqua;
   }
-  #inside{
-    display: flex; 
-    border: 2px solid cadetblue;
-    background-color: cadetblue;
-    position: relative;
-    width: 50%;
-    height:50%;
-      }
-      #triangle {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 0;
-        height: 0;
-        border-left: 50px solid transparent;
-        border-right: 50px solid transparent;
-        border-bottom: 100px solid rgb(33, 91, 172);
-        cursor: pointer;
-      }
+ 
       
-      #triangle:hover {
-       /* background-color: coral; */
-       border-bottom-color: coral;
 
-      }
 
   /* I just add the color aqua to cehck the container*/
   /* Based on the provided HTML and CSS code, 

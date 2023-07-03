@@ -127,16 +127,3 @@ document.addEventListener("click", (event)=>{
 // chatGPT
 // as a child of the container top, 
 // please draw a triangle, that can change background  color when i move the mose over it
-
-const triangle = document.getElementById('triangle');
-
-triangle.addEventListener('mouseover', function() {
-  triangle.style.color= 'coral';
-});
-
-triangle.addEventListener('mouseout', function() {
-  triangle.style.color = 'yellow';
-});
-
-
-
