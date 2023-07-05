@@ -89,7 +89,7 @@ else   {
 //select the h1, and save it to a variable
 // now that you selected the h1, you can call the header function
 // and it will display the header
-const header = document.querySelector("h1");
+//const header = document.querySelector("h1");
 
 //change an element
 //element.classlist.add("red"); if you want to add a class to an element
@@ -103,10 +103,10 @@ const header = document.querySelector("h1");
 // now that you selected the h1, you can modify the text of the h1
 // remember that <em> is a tag that can be used for emphasized text
 // The content inside is typically displayed in italic.
-header.innerHTML = "<em>lost on the internet</em>";
+//header.innerHTML = "<em>lost on the internet</em>";
 
 // change the color of the h1
-header.style.color = "Purple";
+//header.style.color = "Purple";
 
 //Event handling
 //wait for an event to happen!
@@ -120,10 +120,13 @@ header.style.color = "Purple";
 //touchstart event, usually used to start a touch event in movile devices
 //lisen for an event to happen!
 // document.addEventListener(EVENT_TYPLE,CALLBACK)
-document.addEventListener("click", (event)=>{
-  console.log("cliked"); }
-);
+//document.addEventListener("click", (event)=>{
+//  console.log("cliked"); }
+//);
 // Mdm Event , google it to find a list of events
 // chatGPT
 // as a child of the container top, 
 // please draw a triangle, that can change background  color when i move the mose over it
+
+//console log hellow worl
+console.log("hello world");

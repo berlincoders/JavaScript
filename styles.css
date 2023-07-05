@@ -1,18 +1,12 @@
-#container {
-    display: flex; 
-    justify-content: center;  
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background-color: aqua;
-  }
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#my-button {
+  margin-right: 10px;
+}
  
       
-
-
-  /* I just add the color aqua to cehck the container*/
-  /* Based on the provided HTML and CSS code, 
-    there seems to be an issue with the CSS selector. 
-    In the HTML code, the container element has an id attribute of "container", 
-    not a class attribute. To target the element correctly in CSS,
-     you need to use the id selector (#) instead of the class selector (.).*/
